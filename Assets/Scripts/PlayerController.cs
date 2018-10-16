@@ -29,10 +29,11 @@ public class PlayerController : MonoBehaviour {
         movement.y = -gravity * Time.deltaTime;
         movement.z = Input.GetAxisRaw ("Vertical");
         */
-
         movement = transform.forward * Input.GetAxisRaw ("Vertical");
         movement += transform.right * Input.GetAxisRaw ("Horizontal");
+        
         movement = movement.normalized;
+        movement += -transform.up * gravity;
         //forward = transform.forward;
         movement *= speed * Time.deltaTime;
         cc.Move (movement);
