@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 71699de9a74ed79419175d0aa79d10fe
+guid: 2cf2c3d4bb405f44fb42282d1664ea27
 labels:
 - usfx
 - imphenzia
@@ -14,7 +14,6 @@ labels:
 - mono
 - knight
 AudioImporter:
-  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -25,10 +24,8 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
-  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
-  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

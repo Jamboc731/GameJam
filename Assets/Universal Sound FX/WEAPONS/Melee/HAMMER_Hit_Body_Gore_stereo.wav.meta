@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 67d47072252c7914d8badaf012b48c38
+guid: c7e2366c7a424b34196cd52618c484be
 labels:
 - usfx
 - imphenzia
@@ -13,7 +13,6 @@ labels:
 - medieval
 - viking
 AudioImporter:
-  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -24,10 +23,8 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
-  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
-  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 
