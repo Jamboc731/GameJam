@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour {
     Vector3 lookRot;
     Vector3 toRotate;
     Vector3 forward;
+    float viewRangeMin = 5;
+    float viewRangeMax = 85;
+    Vector3 curRot;
 
     private void Start ()
     {
@@ -20,6 +23,7 @@ public class PlayerController : MonoBehaviour {
         cc = GetComponent<CharacterController> ();
         rotatable = transform.GetChild(0).gameObject;
         
+
     }
 
     private void Update ()
@@ -38,7 +42,20 @@ public class PlayerController : MonoBehaviour {
         movement *= speed * Time.deltaTime;
         cc.Move (movement);
 
-        lookRot = new Vector3 (-Input.GetAxis ("Mouse Y"), 0, 0) * lookSensitivity;
+        float mouseY = -Input.GetAxis("Mouse Y");
+
+        lookRot = new Vector3 (mouseY, 0, 0) * lookSensitivity;
+
+        curRot = rotatable.transform.eulerAngles;
+
+        curRot += lookRot;
+
+        if(curRot.x >= 80 || curRot.x <= 10)
+        {
+
+            return;
+
+        }
 
         rotatable.transform.Rotate (lookRot);
 
@@ -48,7 +65,11 @@ public class PlayerController : MonoBehaviour {
 
         toRotate.z = 0;
 
-        rotatable.transform.rotation = Quaternion.Euler(toRotate);
+        //rotatable.transform.localEulerAngles = new Vector3(Mathf.Clamp(rotatable.transform.localEulerAngles.x, 10, 80), rotatable.transform.localEulerAngles.y, 0);
+        //toRotate.x = Mathf.Clamp(toRotate.x, 10, 80);
+        //Debug.Log(rotatable.transform.rotation.eulerAngles.x + " | " + rotatable.transform.localEulerAngles.x);
+
+        //rotatable.transform.rotation = Quaternion.Euler(Mathf.Clamp(toRotate.x, viewRangeMin, viewRangeMax), toRotate.y, toRotate.z);
 
     }
 
