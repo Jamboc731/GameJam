@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ce2afae967de5c4b8b8f981ac0439d1
+guid: 8a7c44a824a12ce41a06484555c5cd7e
 labels:
 - imphenzia
 - usfx
@@ -12,6 +12,7 @@ labels:
 - enemy
 - creature
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -22,8 +23,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

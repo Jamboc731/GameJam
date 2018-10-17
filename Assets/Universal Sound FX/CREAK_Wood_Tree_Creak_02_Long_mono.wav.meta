@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c55af282fc6f45843893c69ad4ee8e68
+guid: f2e3a27b4c915bf43af703d0c78977b8
 labels:
 - usfx
 - imphenzia
@@ -8,6 +8,7 @@ labels:
 - mono
 - tree
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -18,8 +19,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

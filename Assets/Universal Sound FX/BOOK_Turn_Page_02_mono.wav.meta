@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66104518864c5184d928fca8f73e06de
+guid: 54d3531d8541ed74cb503ce42bad8b8a
 labels:
 - usfx
 - imphenzia
@@ -11,6 +11,7 @@ labels:
 - mono
 - foley
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -21,8 +22,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

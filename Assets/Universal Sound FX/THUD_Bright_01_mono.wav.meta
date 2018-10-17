@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 97c86957807b10448aab19c7220ebb1c
+guid: 87a2c6fa18dc15c4faf3aead20d66fe0
 labels:
 - usfx
 - imphenzia
@@ -8,6 +8,7 @@ labels:
 - mono
 - impact
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -18,8 +19,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

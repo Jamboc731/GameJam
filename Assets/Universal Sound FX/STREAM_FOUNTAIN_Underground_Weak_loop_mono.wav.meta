@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1ccf020484d5af459998f0ec9d25631
+guid: 2d1d3167b93bac948a592add66b42917
 labels:
 - usfx
 - imphenzia
@@ -12,6 +12,7 @@ labels:
 - river
 - splash
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -22,8 +23,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

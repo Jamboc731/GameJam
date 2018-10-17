@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ffb24409c5c8e1d479998ba4c382e677
+guid: 90ca914bc5078474492ea68626d1f431
 labels:
 - usfx
 - imphenzia
@@ -15,6 +15,7 @@ labels:
 - blast
 - rumble
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -25,8 +26,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

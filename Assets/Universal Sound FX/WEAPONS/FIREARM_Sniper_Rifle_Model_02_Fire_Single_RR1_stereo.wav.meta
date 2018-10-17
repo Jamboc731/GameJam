@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2f33c2d218f090f41a53de7b35dc0be9
+guid: 3806066a30cf9cb408db3f9a9debc009
 labels:
 - usfx
 - imphenzia
@@ -15,6 +15,7 @@ labels:
 - firing
 - military
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -25,8 +26,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 590478a72e226c04f9329e5c80f32ed7
+guid: e160c8048e5f633419e781472f46eea4
 labels:
 - usfx
 - imphenzia
@@ -13,6 +13,7 @@ labels:
 - fantasy
 - bang
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -23,8 +24,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

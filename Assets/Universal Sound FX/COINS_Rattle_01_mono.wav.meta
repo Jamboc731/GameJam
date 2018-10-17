@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2fe1d9e973744bb43bb5121009e2e3ac
+guid: 0e7baf054e231fb4ba2a62fc8ada4ef0
 labels:
 - usfx
 - imphenzia
@@ -12,6 +12,7 @@ labels:
 - pay
 - metal
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -22,8 +23,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

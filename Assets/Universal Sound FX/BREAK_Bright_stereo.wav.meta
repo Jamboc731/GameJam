@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: da1821a691317114d8e5728470bb3212
+guid: 5be68c609efa7904ba3adc828464ef41
 labels:
 - usfx
 - imphenzia
@@ -10,6 +10,7 @@ labels:
 - cracking
 - crunch
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -20,8 +21,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

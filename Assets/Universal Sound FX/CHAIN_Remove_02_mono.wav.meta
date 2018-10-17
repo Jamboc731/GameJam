@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4905757a6f535ab48bed34f77569ab70
+guid: 56d3800264c17a54499d6b6e121d5529
 labels:
 - imphenzia
 - usfx
@@ -9,6 +9,7 @@ labels:
 - links
 - rattle
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -19,8 +20,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 

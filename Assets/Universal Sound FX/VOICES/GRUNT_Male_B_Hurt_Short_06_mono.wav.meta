@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1fc381d5d876f046b26c9df42b7e3fe
+guid: 32158bd352ac25546ad01bf6de36a85f
 labels:
 - imphenzia
 - usfx
@@ -11,6 +11,7 @@ labels:
 - ouch
 - pain
 AudioImporter:
+  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 1
@@ -21,8 +22,10 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
+  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 
