@@ -13,18 +13,13 @@ public class PlayerController : MonoBehaviour {
     Vector3 lookRot;
     Vector3 toRotate;
     Vector3 forward;
-    float viewRangeMin = 5;
-    float viewRangeMax = 85;
-    Vector3 curRot;
-    Camera cam;
 
     private void Start ()
     {
 
         cc = GetComponent<CharacterController> ();
         rotatable = transform.GetChild(0).gameObject;
-        cam = rotatable.transform.GetChild(0).GetComponent<Camera>();
-
+        
     }
 
     private void Update ()
@@ -43,20 +38,7 @@ public class PlayerController : MonoBehaviour {
         movement *= speed * Time.deltaTime;
         cc.Move (movement);
 
-        float mouseY = -Input.GetAxis("Mouse Y");
-
-        lookRot = new Vector3 (mouseY, 0, 0) * lookSensitivity;
-
-        curRot = rotatable.transform.eulerAngles;
-
-        curRot += lookRot;
-
-        if(curRot.x >= 80 || curRot.x <= 10)
-        {
-
-            return;
-
-        }
+        lookRot = new Vector3 (-Input.GetAxis ("Mouse Y"), 0, 0) * lookSensitivity;
 
         rotatable.transform.Rotate (lookRot);
 
@@ -66,26 +48,7 @@ public class PlayerController : MonoBehaviour {
 
         toRotate.z = 0;
 
-        if (Input.GetButtonDown("Fire1"))
-        {
-
-            Ray ray = new Ray(cam.transform.position, cam.transform.forward);
-
-            RaycastHit hit;
-
-            if(Physics.Raycast(ray, out hit))
-            {
-
-                if (hit.transform.gameObject.name.Contains("Skel"))
-                {
-
-                    Destroy(hit.transform.gameObject);
-
-                }
-
-            }
-
-        }
+        rotatable.transform.rotation = Quaternion.Euler(toRotate);
 
     }
 
