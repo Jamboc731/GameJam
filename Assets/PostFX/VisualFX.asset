@@ -175,7 +175,7 @@ MonoBehaviour:
     max: 360
   exposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.5
   multiplier:
     m_OverrideState: 1
     m_Value: 1
@@ -204,7 +204,7 @@ MonoBehaviour:
     max: 5
   skyTint:
     m_OverrideState: 1
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_Value: {r: 0.06786222, g: 0.47200724, b: 0.5754717, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1

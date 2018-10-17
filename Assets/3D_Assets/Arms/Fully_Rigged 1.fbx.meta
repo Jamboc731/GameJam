@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 9b3f9cee1dd7cf442aed511b19faaa46
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm:Mesh
+    100002: Arm:Mesh2
+    100004: Arm:Mesh4
+    100006: //RootNode
+    100008: ikHandle10
+    100010: ikHandle11
+    100012: ikHandle12
+    100014: ikHandle14
+    100016: ikHandle15
+    100018: ikHandle16
+    100020: ikHandle17
+    100022: ikHandle18
+    100024: ikHandle19
+    100026: ikHandle20
+    100028: ikHandle7
+    100030: ikHandle8
+    100032: ikHandle9
+    100034: joint10
+    100036: joint11
+    100038: joint12
+    100040: joint13
+    100042: joint14
+    100044: joint15
+    100046: joint16
+    100048: joint17
+    100050: joint18
+    100052: joint19
+    100054: joint2
+    100056: joint20
+    100058: joint21
+    100060: joint22
+    100062: joint23
+    100064: joint24
+    100066: joint25
+    100068: joint26
+    100070: joint27
+    100072: joint28
+    100074: joint3
+    100076: joint4
+    100078: joint5
+    100080: joint5 1
+    100082: joint5 2
+    100084: joint5 3
+    100086: joint5 4
+    100088: joint6
+    100090: joint6 1
+    100092: joint6 2
+    100094: joint6 3
+    100096: joint6 4
+    100098: joint8
+    100100: joint9
+    100102: Left_Rig
+    100104: nurbsCircle2
+    100106: nurbsCircle3
+    100108: polySurface1
+    100110: polySurface3
+    100112: polySurface4
+    100114: Right_Rig
+    100116: transform1
+    100118: Weapon
+    100120: Wrist_IK_Left
+    400000: Arm:Mesh
+    400002: Arm:Mesh2
+    400004: Arm:Mesh4
+    400006: //RootNode
+    400008: ikHandle10
+    400010: ikHandle11
+    400012: ikHandle12
+    400014: ikHandle14
+    400016: ikHandle15
+    400018: ikHandle16
+    400020: ikHandle17
+    400022: ikHandle18
+    400024: ikHandle19
+    400026: ikHandle20
+    400028: ikHandle7
+    400030: ikHandle8
+    400032: ikHandle9
+    400034: joint10
+    400036: joint11
+    400038: joint12
+    400040: joint13
+    400042: joint14
+    400044: joint15
+    400046: joint16
+    400048: joint17
+    400050: joint18
+    400052: joint19
+    400054: joint2
+    400056: joint20
+    400058: joint21
+    400060: joint22
+    400062: joint23
+    400064: joint24
+    400066: joint25
+    400068: joint26
+    400070: joint27
+    400072: joint28
+    400074: joint3
+    400076: joint4
+    400078: joint5
+    400080: joint5 1
+    400082: joint5 2
+    400084: joint5 3
+    400086: joint5 4
+    400088: joint6
+    400090: joint6 1
+    400092: joint6 2
+    400094: joint6 3
+    400096: joint6 4
+    400098: joint8
+    400100: joint9
+    400102: Left_Rig
+    400104: nurbsCircle2
+    400106: nurbsCircle3
+    400108: polySurface1
+    400110: polySurface3
+    400112: polySurface4
+    400114: Right_Rig
+    400116: transform1
+    400118: Weapon
+    400120: Wrist_IK_Left
+    2100000: lambert1
+    2100002: Arm_initialShadingGroup1
+    2300000: polySurface1
+    2300002: polySurface3
+    2300004: polySurface4
+    3300000: polySurface1
+    3300002: polySurface3
+    3300004: polySurface4
+    4300000: polySurface1
+    4300002: polySurface3
+    4300004: polySurface4
+    4300006: Arm:Mesh2
+    4300008: Arm:Mesh4
+    9500000: //RootNode
+    13700000: Arm:Mesh2
+    13700002: Arm:Mesh4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
