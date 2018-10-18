@@ -69,8 +69,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1757645864329280}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.561, y: 1.661, z: 4.47}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.194457, y: -9.515017, z: 5.7029243}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4912811613971742}
@@ -99,7 +99,7 @@ Transform:
   m_GameObject: {fileID: 1257790645485156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.84, y: 3.84, z: 3.84}
+  m_LocalScale: {x: 4.33, y: 4.33, z: 4.33}
   m_Children: []
   m_Father: {fileID: 4912811613971742}
   m_RootOrder: 0
@@ -199,12 +199,12 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 7.957747
-  m_Range: 3.84
+  m_Intensity: 47.746483
+  m_Range: 4.33
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -224,7 +224,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 2968
   m_UseColorTemperature: 1
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
 --- !u!114 &114233114025067572
 MonoBehaviour:
@@ -261,7 +261,7 @@ MonoBehaviour:
   useOldInspector: 0
   featuresFoldout: 1
   showAdditionalSettings: 1
-  displayLightIntensity: 100
+  displayLightIntensity: 600
   displayAreaLightEmissiveMesh: 0
 --- !u!114 &114521181214778946
 MonoBehaviour:
