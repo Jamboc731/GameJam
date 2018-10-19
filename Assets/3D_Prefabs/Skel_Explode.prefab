@@ -266,6 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4230757025479656}
+  - component: {fileID: 114734416527487490}
   m_Layer: 0
   m_Name: Skel_Explode
   m_TagString: Untagged
@@ -370,7 +371,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1834320120115766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7520552, y: 14.28, z: 11.112527}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4397854416784390}
@@ -1425,6 +1426,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19532639, y: 0.039687157, z: 0.13144484}
   m_Center: {x: 0, y: -0.058550358, z: 0.06005858}
+--- !u!114 &114734416527487490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1834320120115766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8255c250095b3f945b7ce021a2b8ff19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135038143411897760
 SphereCollider:
   m_ObjectHideFlags: 1

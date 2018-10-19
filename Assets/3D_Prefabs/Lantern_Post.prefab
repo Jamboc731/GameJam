@@ -77,8 +77,8 @@ GameObject:
   - component: {fileID: 33969591697271264}
   - component: {fileID: 23940999467293176}
   - component: {fileID: 54858741925345050}
-  - component: {fileID: 153763718245434184}
   - component: {fileID: 153836369631697266}
+  - component: {fileID: 114183448564908236}
   m_Layer: 0
   m_Name: Lantern_Worldmodel
   m_TagString: Untagged
@@ -106,8 +106,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1934467747553520}
-  m_LocalRotation: {x: 0.03163983, y: 0.10431853, z: 0.00962589, w: -0.99399394}
-  m_LocalPosition: {x: -0.0139063, y: 1.1734964, z: 1.0726252}
+  m_LocalRotation: {x: -0.024804045, y: 0.11051875, z: -0.16592327, w: -0.9796121}
+  m_LocalPosition: {x: 0.0724307, y: 1.1866041, z: 1.0549821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4928550535326670}
@@ -404,6 +404,21 @@ MonoBehaviour:
   shadowDatas:
   - format: 0
     data: 000000000000803f
+--- !u!114 &114183448564908236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934467747553520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd927b0ad25b9948a0150f3e924ed24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomness: 0
+  x: 1
+  y: 0
+  z: 4
 --- !u!114 &114327727427527968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -441,100 +456,6 @@ MonoBehaviour:
   showAdditionalSettings: 1
   displayLightIntensity: 600
   displayAreaLightEmissiveMesh: 0
---- !u!153 &153763718245434184
-ConfigurableJoint:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1934467747553520}
-  m_ConnectedBody: {fileID: 54219982243533142}
-  m_Anchor: {x: 0, y: 0.242313, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0076700747, y: 1.4152793, z: 1.0578701}
-  serializedVersion: 2
-  m_SecondaryAxis: {x: 0, y: 1, z: 0}
-  m_XMotion: 0
-  m_YMotion: 0
-  m_ZMotion: 0
-  m_AngularXMotion: 2
-  m_AngularYMotion: 0
-  m_AngularZMotion: 2
-  m_LinearLimitSpring:
-    spring: 0
-    damper: 0
-  m_LinearLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularXLimitSpring:
-    spring: 0
-    damper: 0
-  m_LowAngularXLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_HighAngularXLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularYZLimitSpring:
-    spring: 0
-    damper: 0
-  m_AngularYLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularZLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_TargetPosition: {x: 0, y: 0, z: 0}
-  m_TargetVelocity: {x: 0, y: 0, z: 0}
-  m_XDrive:
-    serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-  m_YDrive:
-    serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-  m_ZDrive:
-    serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-  m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
-  m_RotationDriveMode: 0
-  m_AngularXDrive:
-    serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-  m_AngularYZDrive:
-    serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-  m_SlerpDrive:
-    serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-  m_ProjectionMode: 0
-  m_ProjectionDistance: 0.1
-  m_ProjectionAngle: 180
-  m_ConfiguredInWorldSpace: 0
-  m_SwapBodies: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!153 &153836369631697266
 ConfigurableJoint:
   m_ObjectHideFlags: 1
@@ -545,7 +466,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.242313, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0076700747, y: 1.4152793, z: 1.0578701}
+  m_ConnectedAnchor: {x: -0.0076693, y: 1.4152769, z: 1.0578707}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0

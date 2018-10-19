@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     float viewRangeMax = 85;
     Vector3 curRot;
     Camera cam;
+    public GameObject Skel;
+    public GameObject hitparticle;
 
     private void Start ()
     {
@@ -82,6 +84,20 @@ public class PlayerController : MonoBehaviour
                 {
 
                     Destroy (hit.transform.gameObject);
+                    GameObject instance;
+                    Transform[] Bones;
+                    instance = Instantiate(Skel, hit.transform.position, hit.transform.rotation);
+                    GameObject hitparticleinstance;
+                    hitparticleinstance = Instantiate(hitparticle, hit.point, hit.transform.rotation);
+                    Destroy(hitparticleinstance, 5f);
+                    Destroy(instance, 5f);
+                    Bones = gameObject.GetComponentsInChildren<Transform>();
+                    for (int i = 0; i < Bones.Length; i++)
+                    {
+                        Bones[i].GetComponent<Rigidbody>().AddForce(transform.forward * 5000f);
+                    }
+                    
+                  
 
                 }
 
